@@ -15,7 +15,7 @@ header_description: 一个专注 WEB 开发的技术博客
 # Link to your logo | logo地址
 logo: images/logo.jpg
 # Link to your banner_img | 首页banner图地址
-banner_img: images/21.jpg
+banner_img: images/234.jpg
 # Menu setting | 菜单设置
 #  name:                  Font Awesome icon | Font Awesome 图标
 #    title: Home          Title | 标题
@@ -111,7 +111,17 @@ reward:
 changyan_appid: false
 changyan_appkey: false
 # 友言，输入id
-youyan_id: false
+youyan_id: true
+valine:
+  enable: true
+  appId: 1zYMtk98bIUaatPyEOun9euT-gzGzoHsz
+  appKey: 64QPqBntGep3aw5LyhgOpAI
+  notify: false
+  verify: false
+  avatar: mm
+  placeholder: 有事儿您说话
+  guest_info: nick,mail,site
+  pageSize: 10
 # disqus
 disqus: false
 # gitment  https://github.com/imsun/gitment
